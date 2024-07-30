@@ -1,0 +1,33 @@
+.slider {
+  background: var(--img);
+  background-position: center;
+  background-size: cover;
+}
+
+.slider-num {
+  position: relative;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.slider-num::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: white;
+}
+
+.slider-num.active::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: #22b3c1;
+  transition: all 1s ease ;
+  animation: navigation 5s 1;
+}

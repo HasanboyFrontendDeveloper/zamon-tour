@@ -1,0 +1,122 @@
+{
+  "home": "Bosh Sahifa",
+  "about": "Biz Haqimizda",
+  "tours": "Sayohatlar",
+  "contacts": "Kontaktlar",
+  "header1": "Siz yoqtirib qolishingiz aniq bo'lgan shahar:",
+  "Istanbul": "Istanbul",
+  "Antalya": "Antalya",
+  "Dubai": "Dubai",
+  "Sharm El-Sheikh": "Sharm El-Sheikh",
+  "USA": "AQSH",
+  "England": "Angliya",
+  "Canada": "Kanada",
+  "European Union": "Yevropa",
+  "Paris": "Paris",
+  "Kuala Lampur": "Kuala Lampur",
+  "Go There": "Borishni xohlaysizmi?",
+  "Population": "Aholisi",
+  "Territory": "Hududi",
+  "AVG Price": "O'rtacha narx",
+  "Explore More": "Ko'proq bilish...",
+  "weekly1": "Eng yaxshi haftalik takliflarimiz",
+  "weekly2": "Har bir shaharda faqat siz uchun tuzilgan eng yaxshi haftalik takliflarni kashf eting. O'zingizni sarguzashtlar dunyosida his qiling.",
+  "offer title": "Tur o'z ichiga oladi:",
+  "offer1": "buyurtmalar",
+  "offer2": "kishi",
+  "offer3": " 5 kunlik sayohat > Mehmonxona",
+  "offer4": " Aviabilet",
+  "offer5": " Eng yaxshi manzillar",
+  "Make A Reservation": "Joy band qilish",
+  "Need Directions ?": "Qiziqarlimi?",
+  "Book Prefered Deal Here": "O'zingiz yoqtirganingizni tanlang",
+  "Make Your Reservation": "O'z joyingizni band qiling",
+  "Discover More": "Ko'proq bilish...",
+  "Make a Phone Call": "Telefon raqam",
+  "Contact Us via Email": "Bizga email orqali bog'laning",
+  "Visit Our Offices": "Ofisimizga tashrif buyuring",
+  "Visa": {
+    "title": "Viza olishga yordam beramiz",
+    "desc": "Biz sizga oson, tez fursatda va albatta ishonchli viza olishga yordam beramiz.",
+    "Benefits": {
+      "title": "Biznig xizmatlar o‘z ichiga oladi:",
+      "price": "  Eng arzon narxlar",
+      "time": "  Tezkor ishlash vaqti",
+      "asistance": "  Ishonchli yordam"
+    },
+    "countries": {
+      "China": "Xitoy",
+      "Hong Kong": "Xong Kong",
+      "European": "Yevropa(Shengen)",
+      "India": "Hindiston",
+      "Japan": "Yaponiya",
+      "Saudi Arabia": "Saudiya Arabistoni",
+      "Oman": "Omon"
+    }
+  },
+  "Destinations": {
+    "transports": {
+      "title": "Chiptalarni biz bilan arzon va oson toping",
+      "desc": "Har bir shaharda eng yaxshi temir yo‘l va aviachipta biletlarini biz bilan toping",
+      "railway": {
+        "title": "Temir Yo‘l Biletleri Biz Bilan",
+        "desc": "Butun dunyo bo'ylab",
+        "text": " Temir yo'l orqali biz bilan sarguzashtlarni kashf eting! Baland tog'larni, betakror tabiat manzalarni, qadimiy va navqiron shaharlarni, takrorlanmas landshaflarni biz bilan birga toping. Qiziqarlimi? Biz bilan bog'laning. "
+      },
+      "airplane": {
+        "title": "Aviabiletlar Biz Bilan Arzon",
+        "desc": "Jahon bo‘ylab Manzillar",
+        "text": "Eng arzon, qulay, xavfsiz aviabiletlar biz bilan! Bizga bog'laning, biz sizga eng maqbul bo'ladigan aviabilerni topib beramiz"
+      }
+    },
+    "countries": {
+      "title": "Shaharlardan biriga hoziroq tashrif buyuring",
+      "desc": "Har bir shahardagi eng yaxshi takliflarimizni kashf eting, faqat siz uchun. O'zingiz uchun yangi dunyosni oching va misli ko'rilmagan sarguzashtlar ega bo'ling.",
+      "dubai": {
+        "title": "Dubai",
+        "decs": "Birlashgan Arab Amirliklari",
+        "text": "Dubay - Birlashgan Arab Amirliklaridagi shahar va amirlik, hashamatli xaridlar, ultramodern arxitektura va jonli tungi hayot sahnasi bilan mashhur. Balandligi 830 m bo'lgan Burj Xalifa minorasi osmono'par binolar bilan to'ldirilgan osmon chizig'ida hukmronlik qiladi. Uning etagida musiqaga xoreografiya qilingan samolyotlar va chiroqlar bilan jihozlangan Dubay favvorasi joylashgan. Sun'iy orollarda Atlantis, Palm, suv va dengiz hayvonlari bog'lari joylashgan kurort joylashgan."
+      },
+      "Antalya": {
+        "title": "Antalya",
+        "decs": "Turkiya",
+        "text": "Antaliya Turkiyaning eng tez rivojlanayotgan shahri bo'lib, butun dunyodan kelgan sayyohlar uning ajoyib plyajlari va an'anaviy turk madaniyatining ajoyib aralashmasini kashf qilmoqdalar. Bolalarga Aqua Land (suvli slaydni yaxshi ko'radiganlar orzusi) va Dolphin Land (delfinlar, dengiz sherlari va oq kitlarning uyi) o'rin olgan Beach Park yoqadi. Eski shahar markazini o'rganing va Hadrian darvozasini ko'ring."
+      },
+      "Sharm El-Sheikh": {
+        "title": "Sharm El-Sheikh",
+        "decs": "Misr",
+        "text": " Sharm El Sheikh - Sinay yarim orolidagi sayyohlik markazi bo'lib, unda dunyodagi eng yaxshi sho'ng'in joylari mavjud. Sharm shahrini butunlay boshqa darajaga olib chiqqan Ras Muhammad milliy bog'ining suv osti mo''jizalari. Shaharda Qizil dengiz tubidagi parallel dengiz hayotini kashf qilish uchun dunyoning turli burchaklaridan ilg'or va rekreatsion g'avvoslarni jalb qiladigan sho'ng'in va kema halokat joylari mavjud."
+      },
+      "Istanbul": {
+        "title": "Istanbul",
+        "decs": "Turkiya",
+        "text": "Istanbul Turkiyaning eng gavjum shahri va uning madaniy, iqtisodiy va tarixiy markazidir. U Turkiyaning shimoli-g'arbiy qismida joylashgan bo'lib, Marmara va Qora dengizni bog'laydigan Bosfor bo'g'ozi orqali Yevropa va Osiyo tomoniga bo'linadi. Bu ikki qit'ada joylashgan dunyodagi yagona shahar. "
+      }
+    }
+  },
+  "Best Locations": {
+    "title": "Eng yaxshi manzillar",
+    "desc": "Har bir shahardagi eng yaxshi takliflarimizni kashf eting, faqat siz uchun. O'zingiz uchun yangi dunyosni oching va misli ko'rilmagan sarguzashtlar ega bo'ling."
+  },
+  "reservation": {
+    "title": {
+      "1": "",
+      "2": "O'z",
+      "3": "joyingizni",
+      "4": "band",
+      "5": "qiling"
+    },
+    "name": "Ismingiz",
+    "phone": "Telefon raqamingiz",
+    "guests": "Necha kishisiz",
+    "date": "Uchish sanasi",
+    "destination": "Manzilingizni tanlang",
+    "visa": "Visa turini tanlang",
+    "button" : "Band Qilish"
+  },
+  "footer": {
+    "title": "Sayohat qilishni xohlaysizmi?",
+    "desc": "Unda biz bilan hoziroq bog'laning",
+    "button": "Bog'lanish"
+  }
+}

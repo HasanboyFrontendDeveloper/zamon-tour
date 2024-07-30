@@ -1,0 +1,10 @@
+export { default as Navbar } from "./Navbar/Navbar";
+export { default as NavbarMobile } from "./Navbar/NavbarMobile";
+export { default as Header } from "./Header/Header";
+export { default as WeeklyOffers } from "./WeeklyOffers/WeeklyOffers";
+export { default as VisaSuppport } from "./VisaSuppport/VisaSuppport";
+export { default as Reservation } from "./Reservation/Reservation";
+export { default as Footer } from "./Footer/Footer";
+export { default as BestLocations } from "./BestLocations/BestLocations";
+export { default as Destinations } from "./Destinations/Destinations";
+export { default as CountryCard } from "./Destinations/CountryCard";

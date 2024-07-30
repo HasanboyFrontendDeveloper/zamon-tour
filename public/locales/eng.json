@@ -1,0 +1,121 @@
+{
+  "home": "Home",
+  "about": "About",
+  "tours": "Tours",
+  "contacts": "Contacts",
+  "header1": "Take a Glimpse Into The Beautiful City Of:",
+  "Istanbul": "Istanbul",
+  "Antalya": "Antalya",
+  "Dubai": "Dubai",
+  "Sharm El-Sheikh": "Sharm El-Sheikh",
+  "USA": "USA",
+  "England": "England",
+  "Canada": "Canada",
+  "European Union": "European Union",
+  "Paris": "Paris",
+  "Go There": "Go There",
+  "Population": "Population",
+  "Territory": "Territory",
+  "AVG Price": "AVG Price",
+  "Explore More": "Explore More",
+  "weekly1": "Best Weekly Offers In Each City",
+  "weekly2": "Discover the best weekly offers in each city, curated just for you. Immerse yourself in a world of savings and indulge in unparalleled experiences.",
+  "offer title": "Deal Includes:",
+  "offer1": "Check Ins",
+  "offer2": "person",
+  "offer3": "5 Days Trip > Hotel Included",
+  "offer4": "Airplane Bill Included",
+  "offer5": "Daily Places Visit",
+  "Make A Reservation": "Make A Reservation",
+  "Need Directions ?": "Need Directions ?",
+  "Book Prefered Deal Here": "Book Prefered Deal Here",
+  "Make Your Reservation": "Make Your Reservation",
+  "Discover More": "Discover More",
+  "Make a Phone Call": "Make a Phone Call",
+  "Contact Us via Email": "Contact Us via Email",
+  "Visit Our Offices": "Visit Our Offices",
+  "Visa": {
+    "title": "Visa support",
+    "desc": "Experience stress-free travel with our expert visa support. We provide seamless assistance and comprehensive guidance, ensuring a smooth journey. ",
+    "Benefits": {
+      "title": "Benefits of our Visa Support service:",
+      "price": " Best Prices",
+      "time": " Short Processing Time",
+      "asistance": " Trustworthy Assistance"
+    },
+    "countries": {
+      "China": "China",
+      "Hong Kong": "Hong Kong",
+      "European": "European(Schengen)",
+      "India": "India",
+      "Japan": "Japan",
+      "Saudi Arabia": "Saudi Arabia",
+      "Oman": "Oman"
+    }
+  },
+  "Destinations": {
+    "transports": {
+      "title": "Explore Destinations with Ease",
+      "desc": "Find the best deals on railway and airplane tickets in each city, carefully selected for you. ",
+      "railway": {
+        "title": "Cheap Railway Tickets With Us",
+        "desc": "Whole world",
+        "text": " Embark on a railway adventure and explore destinations worldwide. Whether it's the picturesque landscapes, bustling cities, or cultural gems, our rail services offer a unique and comfortable way to traverse the globe. Immerse yourself in the beauty of different cultures, all accessible through our extensive railway network. ."
+      },
+      "airplane": {
+        "title": "Discover Exciting Air Travel Deals",
+        "desc": "Global Destinations",
+        "text": " Embark on a railway adventure and explore destinations worldwide. Whether it's the picturesque landscapes, bustling cities, or cultural gems, our rail services offer a unique and comfortable way to traverse the globe. Immerse yourself in the beauty of different cultures, all accessible through our extensive railway network. ."
+      }
+    },
+    "countries": {
+      "title": "Visit One Of Our Countries Now",
+      "desc": "Discover the best offers in each city, curated just for you. Immerse yourself in a world of savings and indulge in unparalleled experiences.",
+      "dubai": {
+        "title": "Dubai",
+        "decs": "United Arab Emirated",
+        "text": " Dubai is a city and emirate in the United Arab Emirates known for luxury shopping, ultramodern architecture and a lively nightlife scene. Burj Khalifa, an 830m-tall tower, dominates the skyscraper-filled skyline. At its foot lies Dubai Fountain, with jets and lights choreographed to music. On artificial islands just offshore is Atlantis, The Palm, a resort with water and marine-animal parks."
+      },
+      "Antalya": {
+        "title": "Antalya",
+        "decs": "Turkey",
+        "text": "Antalya is the fastest-growing city in Turkey, and tourists from around the world are discovering its fabulous mix of great beaches and traditional Turkish culture. Kids will love the Beach Park, which features Aqua Land (a waterslide-fanatic's dream) and Dolphin Land (home to dolphins, sea lions and white whales). Make sure to explore the old town center and to see Hadrian's Gate."
+      },
+      "Sharm El-Sheikh": {
+        "title": "Sharm El-Sheikh",
+        "decs": "Egypt",
+        "text": " Sharm El Sheikh is the center of tourism action in Sinai Peninsula and it has the world top diving sites. Specially the underwater wonders of Ras Mohammed national park that took Sharm city to whole different level. The city has diving and shipwreck sites that attract both advanced and recreational divers from around the world to discover the un parallel marine life deep down the red sea."
+      },
+      "Istanbul": {
+        "title": "Istanbul",
+        "decs": "Turkey",
+        "text": " Sharm El Sheikh is the center of tourism action in Sinai Peninsula and it has the world top diving sites. Specially the underwater wonders of Ras Mohammed national park that took Sharm city to whole different level. The city has diving and shipwreck sites that attract both advanced and recreational divers from around the world to discover the un parallel marine life deep down the red sea."
+      }
+    }
+  },
+  "Best Locations": {
+    "title": "Best Locations",
+    "desc": "Discover the best offers in each city, curated just for you. Immerse yourself in a world of savings and indulge in unparalleled experiences."
+  },
+  "reservation": {
+    "title": {
+      "1": "",
+      "2": "Make Your",
+      "3": "Reservation",
+      "4": "Through This",
+      "5": "Form"
+    },
+    "name": "Your Name",
+    "phone": "Your Phone Number",
+    "guests": " Number Of Guests ",
+    "date": "Check In Date",
+    "destination": " Choose Your Destination ",
+    "visa": "  Choose Your Visa Support  ",
+    "button" : "Make Your Reservation Now"
+  },
+  "footer": {
+    "title": "Are You Looking To Travel ?",
+    "desc": "Make A Reservation By Clicking The Button",
+    "button": "Book Yours Now"
+  }
+}

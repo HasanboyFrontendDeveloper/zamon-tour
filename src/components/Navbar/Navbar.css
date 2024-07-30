@@ -1,0 +1,106 @@
+.nav {
+  position: relative;
+}
+
+.nav.active::after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  height: 2px;
+  width: 100%;
+  background-color: white;
+}
+
+.nav:hover::after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  height: 2px;
+  width: 100%;
+  background-color: white;
+  transition: all 1s ease;
+  animation: navigation 1s 1;
+}
+
+@keyframes navigation {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+.menu-bar {
+  width: 15px;
+  height: 2px;
+  background: white;
+}
+
+.menu-bar::before {
+  content: "";
+  position: absolute;
+  top: -5px;
+  left: -10px;
+  width: 20px;
+  height: 1.5px;
+  background: white;
+  transition: all 1s ease;
+  transform: translateX(50%);
+}
+
+.menu-bar::after {
+  content: "";
+  position: absolute;
+  bottom: 12px;
+  left: -10px;
+  width: 20px;
+  height: 1.5px;
+  background: white;
+  transition: all 1s ease;
+  transform: translateX(50%);
+}
+
+.menu-bar.active {
+  width: 15px;
+  height: 2px;
+  background: transparent;
+}
+
+.menu-bar.active::before {
+  transform: translate(0, 11px) rotate(-45deg);
+}
+
+.menu-bar.active::after {
+  transform: translate(0, -11px) rotate(45deg);
+}
+
+.show-sidebar {
+  transform: translateX(-100%);
+  transition: all 1s ease;
+  animation: showSidebar 1s 1;
+}
+
+@keyframes showSidebar {
+  from{
+    transform: translateX(0%);
+  }to{
+    transform: translateX(-100%);
+  }
+}
+
+.hide-sidebar {
+  transform: translateX(100%);
+  transition: all 1s ease;
+  animation: hideSidebar 1s 1;
+}
+
+@keyframes hideSidebar {
+  from{
+    transform: translateX(-100%);
+  }to{
+    transform: translateX(0%);
+  }
+}

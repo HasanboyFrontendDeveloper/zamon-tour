@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.swiper-button-prev::after{
+  color: #22b3c1;
+}
+.swiper-button-next::after{
+  color: #22b3c1;  
+}
+
+.direction:hover{
+  animation: directionAnimation 1s 1;
+  transform: translateX(70%);
+}
+
+@keyframes directionAnimation {
+  from{
+    transform: translateX(0%);
+  }to{
+    transform: translateX(70%);
+  }
+}
