@@ -44,10 +44,11 @@ const NavbarMobile = () => {
 
             <div className={`bg-primary py-10 px-5 max-w-[300px] h-[100vh] w-[200px] fixed right-[-200px] ${activeMenu && 'show-sidebar'} ${!activeMenu && 'hide-sidebar'} `}>
                 <div className="flex flex-col items-center gap-3 text-white ">
+
                     {navbarLinks.map(item => (
                         <a href={`#${item}`} key={item} className={`nav ${item === activeNav && 'active'} `} onClick={() => closeHandler(setActiveNav, item)} >{t(item)}</a>
-
                     ))}
+
                     <h4 className='cursor-pointer hover:text-black transition ' onClick={() => closeHandler(changleLenguage, 'uz')} >UZ</h4>
                     <h4 className='cursor-pointer hover:text-black transition ' onClick={() => closeHandler(changleLenguage, 'eng')} >ENG</h4>
                     <h4 className='cursor-pointer hover:text-black transition ' onClick={() => closeHandler(changleLenguage, 'ru')} >RU</h4>
@@ -58,6 +59,7 @@ const NavbarMobile = () => {
                     <a href="https://www.instagram.com/zamontour" target='_blank' className='pt-1 '>
                         <img src={instaIcon} alt="Instagram" className='w-8 cursor-pointer ' />
                     </a>
+
                 </div>
 
             </div>
