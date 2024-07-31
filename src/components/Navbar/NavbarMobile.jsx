@@ -10,7 +10,7 @@ const navbarLinks = ['home', 'about', 'tours', 'contacts']
 
 const NavbarMobile = () => {
     const [activeNav, setActiveNav] = useState('home')
-    const [activeMenu, setActiveMenu] = useState("false")
+    const [activeMenu, setActiveMenu] = useState(false)
 
     const { t, i18n } = useTranslation()
 
@@ -18,7 +18,10 @@ const NavbarMobile = () => {
         i18n.changeLanguage(val)
     }
 
-    
+    const closeHandler = (func = null, item = null) => {
+        setActiveMenu(false)
+        if (func) func(item)
+    }
 
     return (
         <div className="bg-primary w-full fixed top-0 z-10 md:hidden block ">
@@ -31,33 +34,33 @@ const NavbarMobile = () => {
 
                 <div className="relative lg:hidden w-5 h-5 ">
 
-                    <i className={`fa-solid fa-bars ${activeMenu === "true" ? 'hidden' : 'block'} text-xl transition duration-500 `} onClick={() => setActiveMenu("true")} ></i>
-                    <i className={`fa-solid fa-xmark ${activeMenu === "false" ? 'hidden' : 'block'} text-xl transition duration-500 `} onClick={() => setActiveMenu("false")} ></i>
+                    <i className={`fa-solid fa-bars ${activeMenu ? 'hidden' : 'block'} text-xl transition duration-500 `} onClick={() => setActiveMenu(true)} ></i>
+                    <i className={`fa-solid fa-xmark ${!activeMenu ? 'hidden' : 'block'} text-xl transition duration-500 `} onClick={() => setActiveMenu(false)} ></i>
                 </div>
 
 
             </div>
 
-            
-            <div className={`bg-primary py-10 px-5 max-w-[300px] w-[200px] opacity-80 fixed right-[-200px] ${activeMenu === "true" && 'show-sidebar'} ${activeMenu === "false" && 'hide-sidebar' } `}>
-                    <div className=" flex flex-col items-center gap-3 text-white ">
-                        {navbarLinks.map(item => (
-                            <a href={`#${item}`} key={item} className={`nav ${item === activeNav && 'active'} `} onClick={() => setActiveNav(item)} >{t(item)}</a>
 
-                        ))}
-                        <h4 className='cursor-pointer hover:text-black transition ' onClick={() => changleLenguage('uz')} >UZ</h4>
-                        <h4 className='cursor-pointer hover:text-black transition ' onClick={() => changleLenguage('eng')} >ENG</h4>
-                        <h4 className='cursor-pointer hover:text-black transition ' onClick={() => changleLenguage('ru')} >RU</h4>
+            <div className={`bg-primary py-10 px-5 max-w-[300px] h-[100vh] w-[200px] fixed right-[-200px] ${activeMenu && 'show-sidebar'} ${!activeMenu && 'hide-sidebar'} `}>
+                <div className="flex flex-col items-center gap-3 text-white ">
+                    {navbarLinks.map(item => (
+                        <a href={`#${item}`} key={item} className={`nav ${item === activeNav && 'active'} `} onClick={() => closeHandler(setActiveNav, item)} >{t(item)}</a>
 
-                        <a href="https://t.me/zamonbiznestour" target='_blank' className='pt-1 ' >
-                            <img src={teleIcon} alt="Telegram" className='w-8 cursor-pointer' />
-                        </a>
-                        <a href="https://www.instagram.com/zamontour" target='_blank' className='pt-1 '>
-                            <img src={instaIcon} alt="Instagram" className='w-8 cursor-pointer ' />
-                        </a>
-                    </div>
+                    ))}
+                    <h4 className='cursor-pointer hover:text-black transition ' onClick={() => closeHandler(changleLenguage, 'uz')} >UZ</h4>
+                    <h4 className='cursor-pointer hover:text-black transition ' onClick={() => closeHandler(changleLenguage, 'eng')} >ENG</h4>
+                    <h4 className='cursor-pointer hover:text-black transition ' onClick={() => closeHandler(changleLenguage, 'ru')} >RU</h4>
 
+                    <a href="https://t.me/zamonbiznestour" target='_blank' className='pt-1 ' >
+                        <img src={teleIcon} alt="Telegram" className='w-8 cursor-pointer' />
+                    </a>
+                    <a href="https://www.instagram.com/zamontour" target='_blank' className='pt-1 '>
+                        <img src={instaIcon} alt="Instagram" className='w-8 cursor-pointer ' />
+                    </a>
                 </div>
+
+            </div>
 
         </div >
     )

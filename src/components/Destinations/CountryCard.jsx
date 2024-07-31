@@ -19,7 +19,7 @@ const CountryCard = ({ item, isCountry = true }) => {
                         <span className='text-gray-400 xm:text-sm '>{item?.desc}</span>
                     </div>
                     <div className="">
-                        <a href="#" className='bg-primary text-white xm:text-sm md:text-base xm:px-3 xm:py-2 md:px-5 md:py-3 rounded-full text-center hover:opacity-80 transition '>{t('Explore More')}</a>
+                        <a href="#contacts" className='bg-primary text-white xm:text-sm md:text-base xm:px-3 xm:py-2 md:px-5 md:py-3 rounded-full text-center hover:opacity-80 transition '>{t('Explore More')}</a>
                     </div>
                 </div>
                 <div className="">
@@ -44,10 +44,10 @@ const CountryCard = ({ item, isCountry = true }) => {
                                 <h1 className=''>${item?.price}</h1>
                             </div>
                         </div>
-                        <div className=" text-primary py-5">
+                        <a href='#contacts' className=" text-primary py-5 inline-block ">
                             <h1 className=' inline pr-3'>{t('Need Directions ?')}</h1>
                             <i className="fa-solid fa-arrow-right direction cursor-pointer "></i>
-                        </div>
+                        </a>
                     </>
 
                 )}

@@ -63,11 +63,11 @@ const WeeklyOffers = ({ screenWidth }) => {
 
                         {offers.map(item => (
                             < SwiperSlide key={item.title} >
-                                <div className="relative xm:w-[280px] md:w-[320px] lg:w-[400px] mb-28 xs:mx-auto ">
+                                <div className="relative xm:w-[280px] md:w-[320px] lg:w-[350px] mb-28 xs:mx-auto ">
                                     <div className="">
                                         <img src={item.img} alt="slider" className='rounded-l-3xl md:max-h-[360px] md:max-w-[420px] xm:max-w-[200px] ' />
                                     </div>
-                                    <div className=" py-4 px-5 bg-white z-10 absolute top-16 right-1 shadow-2xl rounded-2xl ">
+                                    <div className=" py-4 px-5 bg-white z-10 absolute top-16 right-1 shadow-xl rounded-2xl ">
                                         <div className="flex justify-between border-b pb-5 ">
 
                                             <div className="">
@@ -99,7 +99,7 @@ const WeeklyOffers = ({ screenWidth }) => {
                                         </ul>
 
                                         <div className="flex justify-center">
-                                            <a href="#contact" className='bg-primary text-white xm:text-xs md:text-XL px-7 py-3 rounded-full inline-block my-5 mx-auto ' >{t('Make A Reservation')}</a>
+                                            <a href="#contacts" className='bg-primary text-white xm:text-xs md:text-XL px-7 py-3 rounded-full inline-block my-5 mx-auto ' >{t('Make A Reservation')}</a>
                                         </div>
 
                                     </div>

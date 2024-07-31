@@ -81,7 +81,7 @@ const Header = () => {
 
                             <h2 className='text-white text-xl '>{t('header1')}</h2>
                             <h1 className='pt-5 pb-10 text-white text-4xl '>{t(item.title)}</h1>
-                            <a href="#" className="bg-primary text-white px-5 py-3 rounded-full hover:bg-white hover:text-primary transition-[1s] ">{t("Go There")} </a>
+                            <a href="#contacts" className="bg-primary text-white px-5 py-3 rounded-full hover:bg-white hover:text-primary transition-[1s] ">{t("Go There")} </a>
 
                         </div>
 
@@ -122,7 +122,7 @@ const Header = () => {
 
                             <div className="">
 
-                                <a href="#" className='bg-primary text-white xm:text-sm md:text-base xm:px-3 xm:py-2 md:px-5 md:py-3 rounded-full text-center hover:opacity-80 transition '>{t('Explore More')}</a>
+                                <a href="#contacts" className='bg-primary text-white xm:text-sm md:text-base xm:px-3 xm:py-2 md:px-5 md:py-3 rounded-full text-center hover:opacity-80 transition '>{t('Explore More')}</a>
                             </div>
 
 

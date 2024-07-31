@@ -45,7 +45,7 @@ const BestLocations = ({ screenWidth }) => {
     const { t } = useTranslation()
 
     return (
-        <div className="xm:w-[320px] xs:w-[420px] sm:w-[700px] md:w-[1000px] lg:w-[1200px] xl:w-[1320px] mx-auto mt-20 mb-40">
+        <div className="w-[95%] xs:w-[420px] sm:w-[700px] md:w-[1000px] lg:w-[1200px] xl:w-[1320px] mx-auto mt-20 mb-40">
 
             <div className="text-center mb-20">
                 <h1 className='font-bold text-3xl sx:w-[380px] '>{t('Best Locations.title')}</h1>
@@ -64,7 +64,7 @@ const BestLocations = ({ screenWidth }) => {
                                 style={{
                                     backgroundImage: `url(${item.img})`,
                                     transition: '0.6s cubic-bezier(0.28, -0.03, 0, 0.99)',
-                                    '--width': screenWidth >= 1060 ? '500px' : screenWidth >= 768 ? '400px' : screenWidth >= 620 ? '300px' : '220px',
+                                    '--width': screenWidth >= 1060 ? '500px' : screenWidth >= 768 ? '400px' : screenWidth >= 620 ? '300px' : screenWidth >= 365 ? '220px' : '170px',
 
                                 }} >
                                 <div className="row text-white flex flex-nowrap items-center pl-[10px] pt-[10px] gap-2 ">

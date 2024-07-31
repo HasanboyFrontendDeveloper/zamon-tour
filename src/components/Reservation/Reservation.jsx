@@ -78,7 +78,7 @@ const Reservation = () => {
                     <h1 className='text-white text-xl font-semibold '>{t("Book Prefered Deal Here")}</h1>
                     <span className='border-b-[3px] border-gray-400 w-20'></span>
                     <h2 className='text-white text-[50px] font-bold'>{t("Make Your Reservation")}</h2>
-                    <a href="#" className="bg-white text-primary px-5 py-3 rounded-full hover:bg-primary hover:text-white transition-[1s] ">{t("Discover More")}</a>
+                    <a href="#contacts" className="bg-white text-primary px-5 py-3 rounded-full hover:bg-primary hover:text-white transition-[1s] ">{t("Discover More")}</a>
                 </div>
             </div>
 
@@ -107,15 +107,15 @@ const Reservation = () => {
                 </div>
             </div>
 
-            <div className="xm:w-[320px] xs:w-[420px] ss:w-[550px] sm:w-[700px] md:w-[1000px] lg:w-[1200px] xl:w-[1320px] mx-auto my-20 bg-gray-100 rounded-3xl ">
+            <div className="xm:w-[320px] xs:w-[420px] ss:w-[550px] sm:w-[700px] md:w-[1000px] lg:w-[1200px] xl:w-[1320px] mx-auto my-20 bg-gray-100 rounded-3xl " id='contacts' >
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5363.450922036045!2d69.199668!3d41.289032!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae89a274fdb9b7%3A0x2b8bc58608ca7fb2!2sChilanzar-25%2C%20100152%2C%20Tashkent%2C%20Tashkent%20Region%2C%20Uzbekistan!5e1!3m2!1sen!2sus!4v1721564367937!5m2!1sen!2sus"
                     frameborder="0"
                     className='w-full h-[450px] rounded-t-3xl pb-5 '
                 ></iframe>
 
-                <h1 className='text-center font-bold text-3xl py-5 '><span className='text-primary'>{t("reservation.title.1")}</span> {t("reservation.title.2")} <span className='text-primary'>{t("reservation.title.3")}</span> {t("reservation.title.4")} <span className='text-primary'>{t("reservation.title.5")}</span></h1>
-                <form onSubmit={submitHandler} className='w-[60%] mx-auto pt-5 pb-10 '>
+                <h1 className='text-center font-bold text-xl xs:text-2xl ss:text-3xl py-5 ' ><span className='text-primary'>{t("reservation.title.1")}</span> {t("reservation.title.2")} <span className='text-primary'>{t("reservation.title.3")}</span> {t("reservation.title.4")} <span className='text-primary'>{t("reservation.title.5")}</span></h1>
+                <form onSubmit={submitHandler} className='ss:w-[60%] w-[90%] mx-auto pt-5 pb-10 '>
                     <div className="flex flex-wrap gap-5 ">
 
                         <label className='text-gray-400 w-full md:w-[48%] '>

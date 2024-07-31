@@ -35,7 +35,8 @@ const Destinations = () => {
     const countries = [
         {
             title: t("Destinations.countries.dubai.title"),
-            desc: t("Destinations.countries.dubai.desc"),
+            
+            desc: t("Destinations.countries.dubai.decs"),
             paragraph: t("Destinations.countries.dubai.text"),
             population: '8.66',
             territory: ' 41.290',
@@ -45,7 +46,7 @@ const Destinations = () => {
         },
         {
             title: t("Destinations.countries.Antalya.title"),
-            desc: t("Destinations.countries.Antalya.desc"),
+            desc: t("Destinations.countries.Antalya.decs"),
             paragraph: t("Destinations.countries.Antalya.text"),
             population: '67.41',
             territory: '551.500 ',
@@ -55,7 +56,7 @@ const Destinations = () => {
         },
         {
             title: t("Destinations.countries.Sharm El-Sheikh.title"),
-            desc: t("Destinations.countries.Sharm El-Sheikh.desc"),
+            desc: t("Destinations.countries.Sharm El-Sheikh.decs"),
             paragraph: t("Destinations.countries.Sharm El-Sheikh.text"),
             population: '44.48',
             territory: ' 275.400 ',
@@ -65,7 +66,7 @@ const Destinations = () => {
         },
         {
             title: t("Destinations.countries.Istanbul.title"),
-            desc: t("Destinations.countries.Istanbul.desc"),
+            desc: t("Destinations.countries.Istanbul.decs"),
             paragraph: t("Destinations.countries.Istanbul.text"),
             population: '67.41',
             territory: '551.500',

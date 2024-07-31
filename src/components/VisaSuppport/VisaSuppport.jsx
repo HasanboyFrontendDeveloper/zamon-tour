@@ -94,7 +94,7 @@ const VisaSuppport = ({ screenWidth }) => {
                                     <div className="">
                                         <img src={item.img} alt="slider" className='rounded-l-3xl md:max-h-[360px] md:max-w-[280px] xm:max-w-[250px] ' />
                                     </div>
-                                    <div className=" py-4 px-5 bg-white z-10 absolute top-16 right-1 shadow-2xl rounded-2xl ">
+                                    <div className=" py-4 px-5 bg-white z-10 absolute top-16 right-1 shadow-xl rounded-2xl ">
                                         <div className="flex justify-between border-b pb-5 ">
 
                                             <div className="">
